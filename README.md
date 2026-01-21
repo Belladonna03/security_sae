@@ -96,13 +96,37 @@ SAE обучался на смеси следующих датасетов:
 
 ### Графики
 
-![Firing rate](activation_report/01_firing_rate_hist.png)
-![log10 firing rate](activation_report/02_log10_firing_rate_hist.png)
-![Top-30 firing rate](activation_report/03_top30_firing_rate.png)
-![Top-30 max activation](activation_report/04_top30_max_activation.png)
-![Top-30 mean when active](activation_report/05_top30_mean_when_active.png)
-![Active features per token](activation_report/06_active_features_per_token_hist.png)
-![PCA scatter](activation_report/07_pca_scatter.png)
+Все изображения лежат в папке [`activation_report/`](activation_report/).
+
+<details>
+<summary><b>Показать превью (компактно)</b></summary>
+
+<p>
+  <img src="activation_report/01_firing_rate_hist.png" width="420" />
+  <img src="activation_report/02_log10_firing_rate_hist.png" width="420" />
+</p>
+<p>
+  <img src="activation_report/03_top30_firing_rate.png" width="420" />
+  <img src="activation_report/04_top30_max_activation.png" width="420" />
+</p>
+<p>
+  <img src="activation_report/05_top30_mean_when_active.png" width="420" />
+  <img src="activation_report/06_active_features_per_token_hist.png" width="420" />
+</p>
+<p>
+  <img src="activation_report/07_pca_scatter.png" width="420" />
+</p>
+
+</details>
+
+Список файлов:
+- `01_firing_rate_hist.png`
+- `02_log10_firing_rate_hist.png`
+- `03_top30_firing_rate.png`
+- `04_top30_max_activation.png`
+- `05_top30_mean_when_active.png`
+- `06_active_features_per_token_hist.png`
+- `07_pca_scatter.png`
 
 ### Статистика активаций
 
